@@ -831,24 +831,3 @@ python main.py
 rm -rf node_modules package-lock.json
 npm install
 ```
-
----
-
-## 📝 License
-MIT License - Feel free to use this project for educational purposes.
-
----
-
-## 👨‍💻 Contributors
-- [Your Name] - Full Stack Development
-- [Team Member 2] - ML Model Development
-- [Team Member 3] - UI/UX Design
-
----
-
-## 📧 Contact
-For questions or support, contact: [your-email@example.com]
-
----
-
-**Built with ❤️ using React, Node.js, Python, and AI**
