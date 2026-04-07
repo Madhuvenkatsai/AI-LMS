@@ -1,0 +1,428 @@
+/* Light Theme Overrides */
+
+/* Glass Cards - White background */
+.glass-card {
+  background: white !important;
+  border: 1px solid var(--surface-300) !important;
+  box-shadow: var(--shadow-sm) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  color: var(--text-primary) !important;
+}
+
+.glass-card:hover {
+  border-color: var(--primary-300) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+/* Force all text to be dark and visible */
+body, p, span, div, h1, h2, h3, h4, h5, h6, a, label, li {
+  color: var(--text-primary) !important;
+}
+
+/* Text colors for light theme */
+.text-muted {
+  color: var(--text-muted) !important;
+}
+
+.text-body-sm, .text-body-lg, .text-caption {
+  color: var(--text-secondary) !important;
+}
+
+.text-heading-sm, .text-heading-md, .text-heading-lg, .text-heading-xl {
+  color: var(--text-primary) !important;
+}
+
+/* Specific overrides for common elements */
+.page-container, .page-container-sm {
+  color: var(--text-primary) !important;
+}
+
+.section-title {
+  color: var(--text-primary) !important;
+}
+
+.label {
+  color: var(--text-primary) !important;
+}
+
+/* Navbar for light theme */
+.navbar {
+  background: white !important;
+  border-bottom: 1px solid var(--surface-300) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.navbar-logo-text, .nav-link, .nav-user-name, .nav-user-role {
+  color: var(--text-primary) !important;
+}
+
+.nav-link:hover {
+  color: var(--primary-600) !important;
+}
+
+/* Buttons - Update colors */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-700)) !important;
+  color: white !important;
+}
+
+.btn-secondary {
+  background: var(--surface-300) !important;
+  color: var(--text-primary) !important;
+}
+
+.btn-secondary:hover {
+  background: var(--surface-400) !important;
+}
+
+.btn-faculty-primary {
+  background: linear-gradient(135deg, var(--faculty-primary), var(--faculty-primary-dark)) !important;
+  color: white !important;
+}
+
+.btn-faculty-secondary {
+  background: var(--faculty-secondary) !important;
+  color: white !important;
+}
+
+/* Badges */
+.badge {
+  font-weight: 600 !important;
+}
+
+.badge-success {
+  background: #d1fae5 !important;
+  color: #065f46 !important;
+  border: 1px solid #6ee7b7 !important;
+}
+
+.badge-warning {
+  background: #fef3c7 !important;
+  color: #92400e !important;
+  border: 1px solid #fde047 !important;
+}
+
+.badge-error, .badge-danger {
+  background: #fee2e2 !important;
+  color: #991b1b !important;
+  border: 1px solid #fca5a5 !important;
+}
+
+.badge-info {
+  background: #dbeafe !important;
+  color: #1e40af !important;
+  border: 1px solid #93c5fd !important;
+}
+
+.badge-faculty-success {
+  background: #d1fae5 !important;
+  color: #065f46 !important;
+  border: 1px solid #6ee7b7 !important;
+}
+
+.badge-faculty-secondary {
+  background: #e2e8f0 !important;
+  color: #475569 !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+/* Input fields */
+.input, .select, .textarea {
+  background: white !important;
+  border: 1px solid var(--surface-300) !important;
+  color: var(--text-primary) !important;
+}
+
+.input::placeholder, .textarea::placeholder {
+  color: var(--text-muted) !important;
+}
+
+.input:focus, .select:focus, .textarea:focus {
+  border-color: var(--primary-500) !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Tables */
+.table {
+  background: white !important;
+  color: var(--text-primary) !important;
+}
+
+.table thead {
+  background: var(--surface-200) !important;
+  color: var(--text-primary) !important;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid var(--surface-300) !important;
+  color: var(--text-primary) !important;
+}
+
+.table tbody tr:hover {
+  background: var(--surface-100) !important;
+}
+
+.table th, .table td {
+  color: var(--text-primary) !important;
+}
+
+/* Icon boxes */
+.icon-box {
+  background: var(--surface-200) !important;
+  color: var(--text-primary) !important;
+}
+
+.icon-box-primary, .icon-box-faculty-primary {
+  background: rgba(59, 130, 246, 0.1) !important;
+  color: var(--primary-600) !important;
+  border: 1px solid rgba(59, 130, 246, 0.2) !important;
+}
+
+.icon-box-success, .icon-box-faculty-success {
+  background: rgba(16, 185, 129, 0.1) !important;
+  color: var(--success-600) !important;
+  border: 1px solid rgba(16, 185, 129, 0.2) !important;
+}
+
+.icon-box-warning, .icon-box-faculty-warning {
+  background: rgba(234, 179, 8, 0.1) !important;
+  color: var(--warning-600) !important;
+  border: 1px solid rgba(234, 179, 8, 0.2) !important;
+}
+
+.icon-box-danger, .icon-box-faculty-danger {
+  background: rgba(239, 68, 68, 0.1) !important;
+  color: var(--danger-600) !important;
+  border: 1px solid rgba(239, 68, 68, 0.2) !important;
+}
+
+/* Stat cards */
+.stat-card {
+  background: white !important;
+  color: var(--text-primary) !important;
+}
+
+.stat-value {
+  color: var(--text-primary) !important;
+}
+
+.stat-label {
+  color: var(--text-secondary) !important;
+}
+
+/* Empty states */
+.empty-state {
+  color: var(--text-muted) !important;
+}
+
+.empty-text {
+  color: var(--text-muted) !important;
+}
+
+/* Item rows */
+.item-row {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+}
+
+.item-row:hover {
+  background: var(--surface-100) !important;
+}
+
+.item-name {
+  color: var(--text-primary) !important;
+}
+
+.item-meta {
+  color: var(--text-muted) !important;
+}
+
+.item-details {
+  color: var(--text-primary) !important;
+}
+
+/* Surface light backgrounds */
+.bg-surface-light {
+  background: var(--surface-200) !important;
+}
+
+/* Modals and overlays */
+.modal, .dialog {
+  background: white !important;
+  border: 1px solid var(--surface-300) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Action cards */
+.action-card {
+  color: var(--text-primary) !important;
+}
+
+.action-title {
+  color: var(--text-primary) !important;
+}
+
+.action-desc {
+  color: var(--text-secondary) !important;
+}
+
+/* File drop */
+.file-drop {
+  background: var(--surface-100) !important;
+  border: 2px dashed var(--surface-400) !important;
+  color: var(--text-primary) !important;
+}
+
+.file-drop-text {
+  color: var(--text-secondary) !important;
+}
+
+/* Gradient text - make visible */
+.gradient-text, .gradient-text-primary, .gradient-text-faculty {
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-700)) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* Links */
+a {
+  color: var(--primary-600) !important;
+}
+
+a:hover {
+  color: var(--primary-700) !important;
+}
+
+/* Section links */
+.section-link {
+  color: var(--primary-600) !important;
+}
+
+.empty-link {
+  color: var(--primary-600) !important;
+}
+
+
+
+/* Back to Home Button */
+.back-to-home {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: white !important;
+  color: var(--primary-600) !important;
+  border: 1px solid var(--surface-300);
+  border-radius: var(--radius-lg);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  z-index: 100;
+}
+
+.back-to-home:hover {
+  background: var(--surface-100) !important;
+  border-color: var(--primary-400);
+  box-shadow: var(--shadow-md);
+  transform: translateX(-2px);
+  color: var(--primary-700) !important;
+}
+
+.back-to-home svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Analytics badges for light theme */
+.badge-faculty-danger {
+  background: #fee2e2 !important;
+  color: #dc2626 !important;
+  border: 1px solid #fca5a5 !important;
+}
+
+.badge-faculty-primary {
+  background: #dbeafe !important;
+  color: #2563eb !important;
+  border: 1px solid #93c5fd !important;
+}
+
+.badge-faculty-warning {
+  background: #fef3c7 !important;
+  color: #d97706 !important;
+  border: 1px solid #fde047 !important;
+}
+
+/* Faculty outline button light */
+.btn-faculty-outline {
+  color: var(--faculty-primary-dark) !important;
+  border-color: var(--faculty-primary) !important;
+  background: transparent !important;
+}
+
+.btn-faculty-outline:hover {
+  background: rgba(16, 185, 129, 0.08) !important;
+}
+
+/* Icon box light theme */
+.icon-box {
+  background: var(--surface-200) !important;
+}
+
+/* Analytics tooltip text override - prevent global !important from hiding tooltip text */
+.analytics-tooltip p,
+.analytics-tooltip span,
+.analytics-tooltip div,
+.analytics-tooltip strong {
+  color: inherit !important;
+}
+
+/* Recharts tooltip wrapper override */
+.recharts-tooltip-wrapper .analytics-tooltip {
+  color: #334155 !important;
+}
+
+/* Recharts axis text - ensure visibility on light backgrounds */
+.recharts-cartesian-axis-tick text,
+.recharts-xAxis text,
+.recharts-yAxis text {
+  fill: #64748b !important;
+  color: #64748b !important;
+}
+
+/* Recharts grid lines - visible on light bg */
+.recharts-cartesian-grid line {
+  stroke: #e2e8f0 !important;
+}
+
+/* Recharts axis lines */
+.recharts-cartesian-axis line {
+  stroke: #cbd5e1 !important;
+}
+
+/* Recharts legend text */
+.recharts-legend-item-text {
+  color: #475569 !important;
+}
+
+/* Analytics tabs for light theme */
+.analytics-tabs {
+  background: #f1f5f9 !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.analytics-tabs button {
+  color: #64748b !important;
+}
+
+.analytics-tabs button[style*="linear-gradient"] {
+  color: #059669 !important;
+}
+
+
